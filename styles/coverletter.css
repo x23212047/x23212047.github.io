@@ -1,3 +1,5 @@
+/*No longer using after swtiching to Bootstrap, keeping as reference
+
 @media(min-width:500px){
     .column {
         display: flex;
@@ -40,7 +42,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/*changes to main for cover letter text while maintaining flex*/
+/*changes to main for cover letter text while maintaining flex
 main {
     display: flex;
     flex-wrap: wrap;
@@ -99,7 +101,6 @@ ul.a, ul.skills {
     color: #0073e6;
 }
 
-/*trying to center this to the page*/
 #connect {
     display: flex;
     flex-direction: column;
