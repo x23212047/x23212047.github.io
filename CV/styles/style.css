@@ -1,0 +1,92 @@
+@media(min-width:500px){
+    .column {
+        display: flex;
+    }
+}
+
+/* Main background color */
+body {
+    background-color: #777373; /* Light grey background */
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #021024; /* Dark navy header background */
+    color: #C1E8FF; /* Light text on the header */
+    padding: 20px 0;
+}
+
+/* Image border */
+img {
+    border-radius: 50%;
+    border: 5px solid #052659;
+    max-width: 100%;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #021024;
+    padding: 10px;
+}
+
+nav a {
+    color: #C1E8FF;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold; /* Slightly bold links */
+}
+
+nav a:hover {
+    color: #0073e6; /* Light blue on hover */
+    text-decoration: underline;
+}
+
+/* Section backgrounds */
+.section {
+    background-color: #d3d3d3; /* White background for sections */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Heading styles */
+h1, h3 {
+    color: #C1E8FF;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+h2 {
+    color: #021024;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+/* List styles */
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    list-style: square; /* Use square bullet points */
+}
+
+/* Social link styles */
+.social-link {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+/* Center connect section */
+#connect {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Bullet point settings for later */
+/* ul {
+    display: inline-block;
+    list-style: circle;
+    text-align: left;
+} */
