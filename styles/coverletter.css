@@ -1,0 +1,119 @@
+/*No longer using after swtiching to Bootstrap, keeping as reference
+
+@media(min-width:500px){
+    .column {
+        display: flex;
+    }
+}
+
+body {
+    background-color: #C1E8FF;
+    font-family: Helvetica;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid #052659;
+    max-width: 100%;
+}
+
+nav {
+    background-color: #021024;
+    padding: 10px;
+}
+
+nav a{
+    color: #C1E8FF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*changes to main for cover letter text while maintaining flex
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+}
+
+.section {
+    flex-basis: calc(33.33% - 40px);
+    margin-bottom: 20px;
+}
+
+.column {
+    background-color: #C1E8FF;
+    padding: 20px;
+    border: 1px solid #021024;
+}
+
+h1, h3 {
+    color: #052659;
+    text-shadow: 1px 1px 3px #000000;
+    font-weight: bold;
+    font-weight: bold;
+}
+
+h2 {
+    color: #021024;
+    text-shadow: 1px 1px 3px #000000;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.exp {
+    text-align: left;
+}
+
+ul.a, ul.skills {
+    list-style: square;
+    padding-left: 20px;
+    display: inline-block;
+    text-align: left;
+    margin: auto;
+}
+
+.social-link{
+    text-decoration: none;
+    color: #0073e6;
+}
+
+#connect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/*bullet point settings for later
+ul {
+    display: inline-block;
+    list-style: circle;
+    text-align: left;
+}*/
